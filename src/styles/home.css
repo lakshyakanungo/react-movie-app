@@ -1,0 +1,22 @@
+.home {
+  flex-grow: 1;
+}
+.link:link {
+  color: #21df8b;
+}
+.link:visited {
+  color: #21df8b;
+}
+.link:hover,
+.link:active {
+  color: #21df8b;
+  text-decoration: underline;
+}
+.message {
+  text-align: center;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+.links {
+  text-align: center;
+}

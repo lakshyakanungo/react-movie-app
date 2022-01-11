@@ -1,0 +1,18 @@
+.movie-card {
+  padding: 1rem;
+}
+
+.movie_title,
+.movie_year {
+  /* since the max width of image 
+  from OMDB API is 302px */
+  max-width: 302px;
+  word-wrap: normal;
+  text-align: center;
+}
+img {
+  height: auto;
+}
+.text-items:hover {
+  color: #21df8b;
+}

@@ -1,0 +1,53 @@
+/* while loading or if error */
+.container3 {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* when we successfully get movie details */
+.container2 {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.movie-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2rem;
+}
+.textual {
+  padding: 2rem;
+}
+img {
+  max-width: unset;
+  border-radius: 0.2rem;
+  border: 1px solid #ffffff;
+}
+.title {
+  font-weight: bold;
+  color: #21df8b;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.plot {
+  text-align: center;
+  padding: 5rem;
+  padding-top: 1rem;
+}
+.plot::first-line {
+  color: #21df8b;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 800px) {
+  .movie-details {
+    flex-direction: column;
+  }
+  .textual > .title {
+    text-align: center;
+  }
+}
