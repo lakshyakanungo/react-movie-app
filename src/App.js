@@ -10,7 +10,7 @@ import MovieDetails from "./components/MovieDetails";
 import { ThemeContext, themes } from "./theme-context";
 
 // const API_KEY = "d8a9fb9c";
-const API_BASE_URL = "http://www.omdbapi.com/?apikey=d8a9fb9c&";
+const API_BASE_URL = "https://www.omdbapi.com/?apikey=d8a9fb9c&";
 
 function App() {
   const [isLoading, setisLoading] = useState(false);

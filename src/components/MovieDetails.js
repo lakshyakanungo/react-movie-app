@@ -17,7 +17,7 @@ export default function MovieDetails() {
     const fetchMovieDetails = async () => {
       setisLoading(true);
       const res = await axios.get(
-        `http://www.omdbapi.com/?apikey=d8a9fb9c&i=${id}`
+        `https://www.omdbapi.com/?apikey=d8a9fb9c&i=${id}`
       );
       setMovieDetails(res.data);
       setisLoading(false);
