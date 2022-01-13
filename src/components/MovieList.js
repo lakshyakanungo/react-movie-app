@@ -35,7 +35,7 @@ export default function MovieList({ movies, isLoading, onStartup }) {
           return (
             // <Link to="movie/:i.imdbID">
             <div>
-              <Link to={"/movie/" + `${i.imdbID}`}>
+              <Link to={"/movie/" + i.imdbID}>
                 <Moviecard movie={i} key={i.imdbID} />
               </Link>
             </div>
