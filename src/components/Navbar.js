@@ -10,19 +10,23 @@ export default function Navbar({ search, toggleTheme }) {
         <div className="container"></div>
       </div>
       <div className="links">
-        <Link to="/">
-          <button>Home</button>
-        </Link>
-        <Link to="/about">
-          <button>About</button>
-        </Link>
-        <button
-          onClick={() => {
-            toggleTheme();
-          }}
-        >
-          Switch Theme
-        </button>
+        <div className="two-buttons">
+          <Link to="/">
+            <button>Home</button>
+          </Link>
+          <Link to="/about">
+            <button>About</button>
+          </Link>
+        </div>
+        <div className="one-button">
+          <button
+            onClick={() => {
+              toggleTheme();
+            }}
+          >
+            Switch Theme
+          </button>
+        </div>
       </div>
       <input
         type="text"

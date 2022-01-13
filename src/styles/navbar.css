@@ -46,11 +46,41 @@ button {
 button:hover {
   cursor: pointer;
 }
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 830px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .two-buttons > a > button {
+    margin-bottom: 0px;
+  }
+  .two-buttons {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 650px) {
+  .two-buttons {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 600px) {
   .navbar {
     flex-direction: column;
   }
   .mainlogo {
     margin-bottom: 0.5rem;
+  }
+  .two-buttons {
+    flex-direction: row;
   }
 }

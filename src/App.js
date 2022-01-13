@@ -23,7 +23,7 @@ function App() {
     navigate("/movie-list");
     const res = await axios.get(API_BASE_URL + "s=" + searchitem);
     setmovies(res.data.Search);
-    console.log(res.data.Search);
+    // console.log(res.data.Search);
     setisLoading(false);
     setonStartup(false);
     navigate("/movie-list");

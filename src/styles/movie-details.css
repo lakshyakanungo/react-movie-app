@@ -24,7 +24,7 @@
 img {
   max-width: unset;
   border-radius: 0.2rem;
-  border: 1px solid #ffffff;
+  /* border: 1px solid #ffffff; */
 }
 .title {
   font-weight: bold;
