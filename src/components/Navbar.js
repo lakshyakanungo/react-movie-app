@@ -10,7 +10,7 @@ export default function Navbar({ search, toggleTheme }) {
         <div className="container"></div>
       </div>
       <div className="links">
-        <Link to="/home">
+        <Link to="/">
           <button>Home</button>
         </Link>
         <Link to="/about">

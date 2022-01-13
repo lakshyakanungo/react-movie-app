@@ -1,8 +1,13 @@
-.movielist {
+.movielist2,
+.movielist3 {
   flex-grow: 1;
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   align-items: center;
+}
+.movielist4 {
+  flex-grow: 1;
   padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }

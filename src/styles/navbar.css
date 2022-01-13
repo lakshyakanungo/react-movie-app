@@ -7,13 +7,12 @@
   padding: 1rem;
 }
 input {
-  padding: 0.3rem;
+  padding: 0.5rem;
   background-color: #21df8b;
   color: #24323f;
   border: 2px solid #24323f;
   border-radius: 2rem;
   box-sizing: content-box;
-  height: 4vh;
   text-align: center;
   font-weight: bold;
 }
@@ -51,7 +50,7 @@ button:hover {
   .navbar {
     flex-direction: column;
   }
-  input {
-    margin-bottom: 1rem;
+  .mainlogo {
+    margin-bottom: 0.5rem;
   }
 }
