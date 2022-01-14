@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  text-align: center;
+  padding: 2rem;
 }
 .movielist4 {
   flex-grow: 1;
