@@ -13,25 +13,16 @@ import { ThemeContext } from "../theme-context";
 
 // const API_BASE_URL = "http://www.omdbapi.com/?apikey=d8a9fb9c&i=";
 
+//through this component we will return movie posters on startup
 export default function Home() {
-  //through this component we will return movie posters on startup and whih will slide also
-  // var height_l1 = document.getElementById("l2").style.height;
-  // useEffect(() => {
-  //   var x = document.getElementsByClassName("s2");
-  //   console.log(x.style);
-  // }, []);
   const theme = useContext(ThemeContext);
-
   return (
     <div
       className="images"
       style={{ background: theme.background, color: theme.text }}
     >
       <div className="large">
-        <div
-          className="l1"
-          // height={height_l1}
-        >
+        <div className="l1">
           {/* tt7286456 */}
           <Link to="/movie/tt7286456">
             <img src={limg1} alt="joker" />

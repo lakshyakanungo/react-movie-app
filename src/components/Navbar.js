@@ -36,7 +36,6 @@ export default function Navbar({ search, toggleTheme }) {
         onKeyPress={(e) => {
           if (e.key === "Enter") {
             search(e.target.value);
-            // navigate("/");
           }
           //   console.log(search);
         }}

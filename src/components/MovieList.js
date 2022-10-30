@@ -4,7 +4,7 @@ import { Moviecard } from ".";
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../theme-context";
 
-export default function MovieList({ movies, isLoading, onStartup }) {
+export default function MovieList({ movies, isLoading }) {
   const theme = useContext(ThemeContext);
   if (isLoading) {
     return (
