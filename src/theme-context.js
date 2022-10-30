@@ -2,7 +2,6 @@ import React from "react";
 
 export const themes = {
   light: {
-    // background: "#dddddd",
     background: "#bde5db",
     text: "#000000",
   },
