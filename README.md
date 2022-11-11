@@ -1,10 +1,10 @@
 # Moviedekho
 
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). -->
-Find the details about your favourite movies and tv shows, all in one place.
+Find the details about your favourite movies and tv shows, [all in one place](https://moviedekhlo.netlify.app/).
 
 ## Features
-Search for any movie, tv show, series, etc. Find details in a precise and useful way to know ony what you need.
+Search for any movie, tv show, series, etc. Find details in a precise and useful way to know only what you need.
 - Cool UI
 - Theme Changer
 - Fully responsive
@@ -15,7 +15,7 @@ Search for any movie, tv show, series, etc. Find details in a precise and useful
 - CSS
 - Javascript
 
-## Available Scripts
+## Running this project on your local system
 
 In the project directory, you can run:
 
@@ -34,11 +34,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-### Credits
+## Credits
 
 Special thanks to OMDb API.
 The Open Movie Database.
